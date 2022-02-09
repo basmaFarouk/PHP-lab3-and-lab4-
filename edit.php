@@ -32,7 +32,11 @@ if($_COOKIE["fname"]){
             </select><br>
 
             <label for="">Department</label>
-            <input type="text" name="department" value="<?= $studentInfo['department']?>"><br>
+            <input type="text" name="department" value="<?= $studentInfo['department']?>"><br> <!-- $studentInfo['department'] >>> access from database-->
+            <label for="">Password</label>
+            <input type="password" name="password" value="<?= $studentInfo['pass']?>"><br>
+            <label for="">Email</label>
+            <input type="text" name="email" value="<?= $studentInfo['email']?>"><br>
 
             <input type="submit" value="Update Student" name="update">
 

@@ -57,9 +57,9 @@ if($_COOKIE["fname"]){
             <label for="postgreesql">Postgreesql</label><br> -->
 <!-- 
             <label for="">Username</label>
-            <input type="text" name="username"><br>
+            <input type="text" name="username"><br>-->
             <label for="">Password</label>
-            <input type="password" name="password"><br> -->
+            <input type="password" name="password"><br> 
             <label for="">Department</label>
             <input type="text" name="department"><br>
             <input type="file" name="img">
